@@ -2,6 +2,10 @@
 #include <unordered_map>
 #include "io.hpp"
 
+/**
+ * Directed edge which also holds capacity(weight) and flow.
+ * To be used by MaxFlow.
+ */
 struct Edge
 {
     int u, v;
@@ -9,6 +13,9 @@ struct Edge
     Edge(int u, int v, long c, long f = 0) : u(u), v(v), capacity(c), flow(f) {}
 };
 
+/**
+ * Represents a graph by adj (adjacency list). Also holds other metadata.
+ */
 class Graph
 {
 public:

@@ -134,7 +134,7 @@ void MaxFlow::util_dfs(int u, std::vector<bool>& vis)
 }
 
 /**
- * Computes the number of vertices reachable from #g.source of the graph
+ * Computes the number of vertices reachable from source of the graph
  * represented by #g after a min s-t cut.
  * @return Number of vertices in the min s-t cut.
  */

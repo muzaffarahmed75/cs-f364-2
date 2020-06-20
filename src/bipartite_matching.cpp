@@ -1,7 +1,7 @@
 #include "bipartite_matching.hpp"
 
 /**
- * Reads a bipartite graph into #maxflow.g.
+ * Reads a bipartite graph into #maxflow.
  * @see Graph::read
  */
 void BipartiteMatching::read()
@@ -11,7 +11,7 @@ void BipartiteMatching::read()
 
 /**
  * Computes the size of the maximum bipartite matching of the graph represented by
- * #g using by converting it to a Maximum Flow problem.
+ * maxflow.g by converting it to a Maximum Flow problem.
  * @return Size of the maximum bipartite matching of the graph.
  */
 int BipartiteMatching::compute()

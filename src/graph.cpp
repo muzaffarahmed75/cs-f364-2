@@ -4,8 +4,8 @@
  * Reads directed graph given as an edge list from STDIN.
  * Compresses the IDs of nodes to the range 0 to #node_count-1.
  * Constructs the adjacency list #adj isomorphic to the input graph.
- * @param[in] weighted Specifies whether the graph to be read is weighted or
- * unweighted. Edges of unweighted graphs have weight 1.
+ * @param[in] bipartite Specifies whether the graph to be read is weighted or
+ * bipartite. Edges of bipartite graphs have weight 1.
  */
 void Graph::read(bool bipartite)
 {
